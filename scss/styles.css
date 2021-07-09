@@ -1,0 +1,24 @@
+@media (min-width: 576px) {
+  main {
+    width: 80%;
+  }
+}
+
+.navbar {
+  background-color: #7e1c2c;
+}
+
+section.bg-image {
+  background-image: url("https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 100vh;
+}
+
+nav a:hover {
+  background-color: black;
+}
+
+.card:hover, #profile-link:hover {
+  background: linear-gradient(45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
